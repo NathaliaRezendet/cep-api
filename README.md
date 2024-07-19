@@ -24,8 +24,7 @@ Este projeto fornece uma aplicação web para consulta de informações de CEPs 
 Clone este repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/usuario/repositorio.git
-cd repositorio
+git clone https://github.com/NathaliaRezendet/cep-api.git
 ```
 
 ### Instalando Dependências
@@ -53,7 +52,6 @@ Para instalar as dependências do Laravel, execute:
 **Mobile:**
 
 ![1721413863765](image/README/1721413863765.png)
-
 
 Licença
 
