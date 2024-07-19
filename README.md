@@ -53,6 +53,13 @@ Para instalar as dependências do Laravel, execute:
 
 ![1721413863765](image/README/1721413863765.png)
 
+
+**E seu retorno deve ser:**
+
+***Certifique-se da api estar rodando (php artisan serve)***
+
+![1721418381626](image/README/1721418381626.png)
+
 Licença
 
 Este projeto está licenciado sob a MIT License
