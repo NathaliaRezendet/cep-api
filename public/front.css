@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+}   
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: darkgrey;
+}
+
+input {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 30px);
+    font-size: 16px;
+}
+
+.btn-container {
+    margin-top: 20px;
+    position: relative;
+    width: 180px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: #1d3557;
+    border: 1px solid #91C9FF;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+    border-radius: 7px;
+}
+
+.btn svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    background: #457b9d;
+    border-color: #457b9d;
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    position: relative;
+    z-index: 1;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.result div {
+    margin-bottom: 10px;
+}
+
+.result h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.result p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.error-message {
+    color: #d9534f; 
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
